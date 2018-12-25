@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "noclid",
+    "version": "1.0",
+    "description": "Remove tracking information from query string",
+    "author": "shadow-paw",
+    "homepage_url": "https://github.com/shadow-paw/noclid",
+    
+    "minimum_chrome_version": "27",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+    
+    "background": {
+      "scripts": ["bootstrap.js"],
+      "persistent": true
+    }
+}
